@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warriors of the Eldritch Abyss</title>
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="home">
+        <H1>Warriors of the Eldritch Abyss</H1>
+
+        <section>
+            <h2>Choose your warrior!</h2>
+            <img src="images/back.png" id="back" alt="back button">
+
+            <img src="images/character1.png" id="warriorpick" alt="choose warrior">
+
+            <img src="images/next.png" id="next" alt="next button">
+
+        </section>    
+
+        <figure>
+            <audio controls src="media/dungeon_muziek.mp3"></audio>
+        </figure>
+
+        <section>
+            <h2>Skills</h2>
+
+            <p>Roll to set your level!</p>
+            <h3 id="levelNummer">0</h3>
+            <button id="roll">Roll</button>
+        </section>
+
+        <h2 id="fight">Lets fight!</h2>
+
+        <section>
+            <h3>Dungeon level 1</h3>
+            <img src="images/monster1.png" alt="zombie">
+            <p id="winLose1"></p>
+            <button id="attack1">Attack</button>
+        </section>
+
+        <section>
+            <h3>Dungeon level 2</h3>
+            <img src="images/monster2.png" alt="bull monster">
+            <p id="winLose2"></p>
+            <button id="attack2">Attack</button>
+        </section>
+
+        <section>
+            <h3>Dungeon level 3</h3>
+            <img src="images/monster3.png" alt="medusa monster">
+            <p id="winLose3"></p>
+            <button id="attack3">Attack</button>
+        </section>
+
+        <section>
+            <h2>BOSS FIGHT!!!!!</h2>
+            <img src="images/boss.png" alt="Moonlord">
+            <figcaption><em>"Impending doom approaches..."</em></figcaption>
+            <p id="winLoseBoss"></p>            
+            <button id="attackMoonlord">Attack!</button>
+
+        </section>
+
+        <a href="#top" id="tryAgain">Try again</a>
+
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>

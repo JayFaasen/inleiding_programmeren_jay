@@ -1,0 +1,100 @@
+body{
+    background-image:url(../images/background2.png);
+}
+
+h1{
+    color: rgb(131, 255, 103);
+    font-family: "Kode Mono", monospace;
+    font-weight: 700;
+    text-align: center;
+    font-size: 3em;
+    background-color: rgb(10, 56, 0);
+    border-radius: 0.1em;
+    border: 0.2em double black;
+}
+
+
+h2{
+    color: rgb(131, 255, 103);
+    font-family: "Kode Mono", monospace;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.2em;
+    background-color: rgb(10, 56, 0);
+    border-radius: 0.1em;
+    border: 0.2em double black;
+    font-size: 2em
+}
+
+h3 {
+    color: rgb(131, 255, 103);
+    font-family: "Kode Mono", monospace;
+    font-weight: 400;
+    margin: auto;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+p{
+    color: rgb(255, 80, 80);
+    font-family: "Kode Mono", monospace;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.6em;
+}
+
+button {
+    background-color: black;
+    color: antiquewhite;
+    font-family: "Kode Mono", monospace;
+    font-weight: 400;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+button:hover{
+    color: rgb(131, 255, 103);
+    background-color: rgb(10, 56, 0);
+    transition: 300ms ease;
+}
+
+.home section{
+    background-color: rgb(56, 0, 0);
+    border-radius: 0.1em;
+    border: 0.4em double black;
+    margin: 2em;
+    justify-content: center;
+    text-align: center;
+}
+
+.home section:first-of-type{
+width: auto;
+height: 50%;
+}
+
+a{
+    background-color: rgb(0, 0, 0);
+    color: rgb(131, 255, 103);
+    transition: 300ms ease;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    font-family: "Kode Mono", monospace;
+    font-weight: 400;
+}
+
+a:hover{
+    background-color: rgb(56, 0, 0);
+    color: rgb(255, 80, 80);
+}
+
+figcaption{
+    color: rgb(131, 255, 103);
+    font-family: "Kode Mono", monospace;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin: 0.5em;
+}
+
+figure{
+    text-align: center;
+}
